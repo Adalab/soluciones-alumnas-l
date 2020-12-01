@@ -1,0 +1,6 @@
+*.DS_Store
+*.plist
+node_modules/
+.vscode
+.eslintrc*
+.prettierrc*
