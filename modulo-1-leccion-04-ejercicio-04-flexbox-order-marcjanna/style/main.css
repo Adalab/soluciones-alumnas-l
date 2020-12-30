@@ -1,0 +1,46 @@
+/* body reset */
+
+.reset {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 800px;
+}
+
+/* main  structure  */
+/* borders & background-color for further playing purposes */
+
+.section {
+  width: 800px;
+  /* border: 1px solid darkcyan;
+  box-sizing: border-box; */
+}
+
+.article {
+  /* background-color: salmon;
+  border: 1px solid sandybrown;  */
+  box-sizing: border-box;
+  padding: 15px;
+  width: 50%;
+}
+
+.resize {
+  width: 100%;
+}
+
+/* flex */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+}
+
+.featured {
+  order: -1;
+  width: 100%;
+}
