@@ -8,7 +8,6 @@ function changeColor (event) {
   liElement.classList.toggle ("teacher--selected");
 
   liElement.querySelector(".favorite").innerHTML = "Quitar";
- //teacherSelected.classList.toggle ("teacher--selected");
 }
 
 teacherList.addEventListener ('click', changeColor);
